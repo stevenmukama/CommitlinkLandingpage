@@ -46,7 +46,7 @@ function Nav() {
               </div>
             </div>
             <ButtonLink
-              href="#"
+              href="#contactus"
               children={"Contact us"}
               className="active:bg hidden rounded-xl bg-indigo-600 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
             />
