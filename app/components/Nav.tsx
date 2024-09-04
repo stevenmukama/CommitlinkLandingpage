@@ -12,7 +12,7 @@ function Nav() {
   const navLinks = [
     { href: "#about", children: "About Us" },
     { href: "#whatWedo", children: "What we do" },
-    { href: "#career", children: "Career" },
+    { href: "#reviews", children: "Reviews" },
     { href: "#pricing", children: "Pricing" },
   ];
 

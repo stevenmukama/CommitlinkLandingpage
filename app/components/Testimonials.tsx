@@ -218,7 +218,7 @@ const Testimonials = () => {
     }, [currentSlide]);
   
     return (
-      <section className="bg-gray-50">
+      <section className="bg-gray-50" id='reviews'>
         <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
             <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
@@ -229,7 +229,7 @@ const Testimonials = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas veritatis illo
                 placeat harum porro optio fugit a culpa sunt id!
               </p>
-              <div className="flex justify-center mt-6 space-x-4 sm:justify-start">
+              <div className="flex md:justify-center items-center  mt-6 space-x-4 sm:justify-start">
                 <button
                   aria-label="Previous slide"
                   onClick={prevSlide}
