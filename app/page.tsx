@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Nav from './components/Nav';
 import Stats from './components/Stats';
+import Team from './components/Team';
+
 import Testimonials from './components/Testimonials';
 
 export default function Home() {
@@ -17,6 +19,7 @@ export default function Home() {
       <Benefits />
       <Stats />
       <Testimonials />
+      <Team />
       <FaqComponent />
       <ContactUs />
       <Footer />
