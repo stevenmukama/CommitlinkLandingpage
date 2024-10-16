@@ -1,19 +1,19 @@
-"use client";
-import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
-import logo from "../assets/Logo.png";
-import ButtonLink from "../common/ButtonLink";
-import Image from "next/image";
+'use client';
+import { Disclosure } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid';
+import logo from '../assets/Logo.png';
+import ButtonLink from '../common/ButtonLink';
+import Image from 'next/image';
 
 function Nav() {
   const textLinkClasses =
-    "text-gray-500 hover:text-gray-900 active:text-gray-400";
+    'text-gray-500 hover:text-gray-900 active:text-gray-400';
 
   const navLinks = [
-    { href: "#about", children: "About Us" },
-    { href: "#whatWedo", children: "What we do" },
-    { href: "#reviews", children: "Reviews" },
-    { href: "#pricing", children: "Pricing" },
+    { href: '#about', children: 'About Us' },
+    { href: '#whatWedo', children: 'What we do' },
+    { href: '#reviews', children: 'Reviews' },
+    { href: '#pricing', children: 'Pricing' },
   ];
 
   return (
@@ -32,7 +32,7 @@ function Nav() {
                     placeholder="empty"
                   />
                 }
-                className="w-8"
+                className="w-24"
               />
               <div className="ml-4 hidden items-center space-x-4 sm:ml-6 sm:flex lg:ml-8 lg:space-x-8">
                 {navLinks.map((link, index) => (
@@ -47,7 +47,7 @@ function Nav() {
             </div>
             <ButtonLink
               href="#contactus"
-              children={"Contact us"}
+              children={'Contact us'}
               className="active:bg hidden rounded-xl bg-indigo-600 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
             />
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white sm:hidden">
@@ -64,8 +64,7 @@ function Nav() {
                 className="block"
                 as="a"
                 href="#features"
-                key={index}
-              >
+                key={index}>
                 {link.children}
               </Disclosure.Button>
             ))}

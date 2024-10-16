@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Benefits() {
   const features = [
@@ -10,8 +10,7 @@ function Benefits() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
-        >
+          className="w-6 h-6">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -19,8 +18,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: "Fast Refresh",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      title: 'Fast Refresh',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
       icon: (
@@ -30,8 +29,7 @@ function Benefits() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
-        >
+          className="w-6 h-6">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -39,8 +37,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: "Analytics",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      title: 'Analytics',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
       icon: (
@@ -50,8 +48,7 @@ function Benefits() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
-        >
+          className="w-6 h-6">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -59,8 +56,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: "Datacenter security",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      title: 'Datacenter security',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
       icon: (
@@ -70,8 +67,7 @@ function Benefits() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
-        >
+          className="w-6 h-6">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -79,8 +75,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: "Build on your terms",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      title: 'Build on your terms',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
       icon: (
@@ -90,8 +86,7 @@ function Benefits() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
-        >
+          className="w-6 h-6">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -99,8 +94,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: "Safe to use",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      title: 'Safe to use',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
       icon: (
@@ -110,8 +105,7 @@ function Benefits() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6"
-        >
+          className="w-6 h-6">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -119,8 +113,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: "Flexible",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      title: 'Flexible',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
   ];
 
@@ -141,17 +135,15 @@ function Benefits() {
             className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]"
             style={{
               background:
-                "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)",
-            }}
-          ></div>
+                'linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)',
+            }}></div>
         </div>
         <div className="relative mt-12">
           <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-white space-y-3 p-4 border rounded-lg"
-              >
+                className="bg-white space-y-3 p-4 border rounded-lg">
                 <div className="text-indigo-600 pb-3">{item.icon}</div>
                 <h4 className="text-lg text-gray-800 font-semibold">
                   {item.title}
@@ -161,24 +153,21 @@ function Benefits() {
             ))}
           </ul>
         </div>
-        <div className="mx-auto items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
+        <div className="justify-center mt-12 items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
           <a
             href="#"
-            className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
-          >
+            className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
             Let's get started
           </a>
           <a
             href="#"
-            className="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex"
-          >
+            className="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex">
             Get access
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5"
-            >
+              className="w-5 h-5">
               <path
                 fillRule="evenodd"
                 d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z"
