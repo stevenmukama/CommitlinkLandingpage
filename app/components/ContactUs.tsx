@@ -88,9 +88,9 @@ function ContactUs() {
               <label className="font-medium">Message</label>
               <textarea
                 required
-                className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"></textarea>
+                className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:bg-[#24330c] shadow-sm rounded-lg"></textarea>
             </div>
-            <button className="w-full px-4 py-2 text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150">
+            <button className="w-full px-4 py-2 text-white font-medium bg-[#daa51b] hover:bg-[#24330c] active:bg-[#24330c] rounded-lg duration-150">
               Submit
             </button>
           </form>

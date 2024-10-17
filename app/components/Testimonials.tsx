@@ -55,7 +55,7 @@ const Testimonials = () => {
             <button
               aria-label="Previous slide"
               onClick={handlePrevClick}
-              className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white">
+              className="rounded-full border border-[#daa51b] p-3 text-[#daa51b]  transition hover:bg-[#daa51b]  hover:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -74,7 +74,7 @@ const Testimonials = () => {
             <button
               aria-label="Next slide"
               onClick={handleNextClick}
-              className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white">
+              className="rounded-full border border-[#daa51b] p-3 text-[#daa51b]  transition hover:bg-[#daa51b]  hover:text-white">
               <svg
                 className="w-5 h-5 rtl:rotate-180"
                 fill="none"
@@ -105,7 +105,7 @@ const Testimonials = () => {
                     <StarIcon />
                   </div>
                   <div className="mt-4">
-                    <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                    <p className="text-2xl font-bold text-[#daa51b]  sm:text-3xl">
                       Stayin' Alive
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
@@ -132,7 +132,7 @@ const Testimonials = () => {
                     <StarIcon />
                   </div>
                   <div className="mt-4">
-                    <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                    <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
                       Stayin' Alive
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
@@ -159,7 +159,7 @@ const Testimonials = () => {
                     <StarIcon />
                   </div>
                   <div className="mt-4">
-                    <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                    <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
                       Stayin' Alive
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
@@ -186,7 +186,7 @@ const Testimonials = () => {
                     <StarIcon />
                   </div>
                   <div className="mt-4">
-                    <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                    <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
                       Stayin' Alive
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
@@ -213,7 +213,7 @@ const Testimonials = () => {
                     <StarIcon />
                   </div>
                   <div className="mt-4">
-                    <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                    <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
                       Stayin' Alive
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
@@ -229,7 +229,6 @@ const Testimonials = () => {
                 </footer>
               </blockquote>
             </div>
-            {/* Add more slides here */}
           </div>
         </div>
       </div>
