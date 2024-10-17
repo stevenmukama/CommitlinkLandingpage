@@ -18,7 +18,7 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Fast Refresh',
+      title: 'Web development',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
@@ -37,7 +37,7 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Analytics',
+      title: 'App development',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
@@ -56,7 +56,7 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Datacenter security',
+      title: 'Seo optimization',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {
@@ -94,7 +94,7 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Safe to use',
+      title: 'Deliver fast',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
     },
     {

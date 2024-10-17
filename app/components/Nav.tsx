@@ -48,7 +48,7 @@ function Nav() {
             <ButtonLink
               href="#contactus"
               children={'Contact us'}
-              className="active:bg hidden rounded-xl bg-indigo-600 px-5 py-3 text-white hover:bg-gray-900 active:bg-gray-600 sm:flex"
+              className="active:bg hidden rounded-xl bg-[#daa51b] px-5 py-3 text-white hover:bg-[#24330c] active:bg-gray-600 sm:flex"
             />
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white sm:hidden">
               {open ? (
