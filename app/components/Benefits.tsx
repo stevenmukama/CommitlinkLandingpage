@@ -144,7 +144,7 @@ function Benefits() {
               <li
                 key={idx}
                 className="bg-white space-y-3 p-4 border rounded-lg">
-                <div className="text-indigo-600 pb-3">{item.icon}</div>
+                <div className="text-[#daa51b] pb-3">{item.icon}</div>
                 <h4 className="text-lg text-gray-800 font-semibold">
                   {item.title}
                 </h4>
@@ -156,7 +156,7 @@ function Benefits() {
         <div className="justify-center mt-12 items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
           <a
             href="#"
-            className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+            className="block py-2 px-4 text-center text-white font-medium bg-[#daa51b] duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
             Let's get started
           </a>
           <a
