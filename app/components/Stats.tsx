@@ -1,4 +1,4 @@
-export default () => {
+function Stats() {
   const stats = [
     {
       data: '35K',
@@ -45,4 +45,4 @@ export default () => {
       </div>
     </section>
   );
-};
+}
