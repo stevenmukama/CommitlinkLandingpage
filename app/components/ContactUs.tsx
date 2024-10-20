@@ -1,6 +1,6 @@
 'use client';
 
-export default () => {
+function ContactUs() {
   return (
     <section id="contactus" className="flex overflow-hidden">
       <div className="py-12 flex-1 lg:flex lg:justify-center">
@@ -46,4 +46,6 @@ export default () => {
       </div>
     </section>
   );
-};
+}
+
+export default ContactUs;
