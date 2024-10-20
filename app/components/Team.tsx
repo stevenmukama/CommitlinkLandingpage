@@ -5,7 +5,7 @@ import worker3 from '../assets/image3.jpg';
 import worker4 from '../assets/image4.jpg';
 import worker5 from '../assets/image5.png';
 
-export default () => {
+function Team() {
   const team = [
     {
       avatar: worker1,
@@ -70,4 +70,6 @@ export default () => {
       </div>
     </section>
   );
-};
+}
+
+export default Team;
