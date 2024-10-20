@@ -2,15 +2,45 @@
 
 const faqs = [
   {
-    question: 'Lorem ipsum dolor sit amet consectetur adipisicing?',
+    question: 'What services does your web development agency offer?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!',
+      'We offer a wide range of services including website design and development, e-commerce solutions, web application development, mobile app development, make.com intergration, and SEO optimization. Our team is equipped to handle projects of any size and complexity.',
     isOpen: true,
   },
   {
-    question: 'Lorem ipsum dolor sit amet consectetur adipisicing?',
+    question: 'How long does it take to build a website?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt voluptate dicta quo officiis explicabo consequuntur distinctio corporis earum similique!',
+      'The timeline for website development depends on the complexity and scope of the project. A standard website may take 4-6 weeks, while more complex projects, such as e-commerce or custom applications, can take longer. We work closely with clients to set realistic deadlines and ensure timely delivery.',
+    isOpen: false,
+  },
+  {
+    question: 'Will my website be mobile-friendly?',
+    answer:
+      'Yes, all the websites we develop are fully responsive, ensuring that they look great and function properly on all devices, including mobile phones, tablets, and desktops.',
+    isOpen: false,
+  },
+  {
+    question: 'Do you offer website maintenance services?',
+    answer:
+      'Yes, we offer ongoing maintenance services to keep your website updated, secure, and functioning smoothly. This includes regular updates, security checks, and performance optimizations.',
+    isOpen: false,
+  },
+  {
+    question: 'Can you help with SEO for my website?',
+    answer:
+      'Absolutely. We offer SEO optimization as part of our web development process to ensure your website ranks well on search engines and reaches your target audience.',
+    isOpen: false,
+  },
+  {
+    question: 'How much does it cost to build a website?',
+    answer:
+      'The cost of website development depends on the complexity of the project, the features required, and the timeline. We offer custom pricing based on your specific needs and provide a detailed proposal outlining the costs involved.',
+    isOpen: false,
+  },
+  {
+    question: 'Will I be able to update my website on my own?',
+    answer:
+      'Yes, we build websites with user-friendly content management systems (CMS) like WordPress or custom solutions, enabling you to make updates to your site without needing technical expertise.',
     isOpen: false,
   },
 ];

@@ -55,7 +55,7 @@ const Testimonials = () => {
             <button
               aria-label="Previous slide"
               onClick={handlePrevClick}
-              className="rounded-full border border-[#daa51b] p-3 text-[#daa51b]  transition hover:bg-[#daa51b]  hover:text-white">
+              className="rounded-full border border-[#daa51b] p-3 text-[#daa51b]  transition hover:bg-[#24330c]  hover:text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -74,7 +74,7 @@ const Testimonials = () => {
             <button
               aria-label="Next slide"
               onClick={handleNextClick}
-              className="rounded-full border border-[#daa51b] p-3 text-[#daa51b]  transition hover:bg-[#daa51b]  hover:text-white">
+              className="rounded-full border border-[#daa51b] p-3 text-[#daa51b]  transition  hover:bg-[#24330c]  hover:text-white">
               <svg
                 className="w-5 h-5 rtl:rotate-180"
                 fill="none"
