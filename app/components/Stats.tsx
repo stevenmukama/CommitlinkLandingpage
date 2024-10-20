@@ -19,7 +19,7 @@ function Stats() {
   ];
 
   return (
-    <section className="py-14">
+    <section className="px-4">
       <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
         <div className="max-w-2xl">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">

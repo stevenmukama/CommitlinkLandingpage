@@ -1,4 +1,5 @@
 import Banner from './common/Banner';
+import BackToTop from './components/BackToTop';
 import Benefits from './components/Benefits';
 import ContactUs from './components/ContactUs';
 import FaqComponent from './components/FaqComponent';
@@ -22,6 +23,7 @@ export default function Home() {
       <FaqComponent />
       <ContactUs />
       <Footer />
+      <BackToTop />
     </>
   );
 }
