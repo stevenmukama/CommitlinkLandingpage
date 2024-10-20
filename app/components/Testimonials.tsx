@@ -44,7 +44,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="bg-gray-50">
+    <section id="reviews" className="bg-gray-50">
       <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:py-16 lg:px-8 xl:py-24">
         <div className="max-w-7xl flex items-end justify-between sm:px-6 lg:px-8">
           <h2 className="max-w-xl text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -106,13 +106,11 @@ const Testimonials = () => {
                   </div>
                   <div className="mt-4">
                     <p className="text-2xl font-bold text-[#daa51b]  sm:text-3xl">
-                      Stayin' Alive
+                      Highly Recommend{' '}
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      Great service, friendly staff, and outstanding results.
+                      Would definitely work with them again!
                     </p>
                   </div>
                 </div>
@@ -133,18 +131,16 @@ const Testimonials = () => {
                   </div>
                   <div className="mt-4">
                     <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
-                      Stayin' Alive
+                      Exceeds Expectations
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      Their attention to detail is remarkable! They delivered
+                      exactly what we needed.
                     </p>
                   </div>
                 </div>
                 <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                  &mdash; Michael Scott
+                  &mdash;Dwight Schrute
                 </footer>
               </blockquote>
             </div>
@@ -160,18 +156,16 @@ const Testimonials = () => {
                   </div>
                   <div className="mt-4">
                     <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
-                      Stayin' Alive
+                      Professional and Reliable{' '}
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      A fantastic team that really understands the client’s
+                      vision. Highly recommend.
                     </p>
                   </div>
                 </div>
                 <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                  &mdash; Michael Scott
+                  &mdash; Pam Beesly
                 </footer>
               </blockquote>
             </div>
@@ -187,13 +181,11 @@ const Testimonials = () => {
                   </div>
                   <div className="mt-4">
                     <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
-                      Stayin' Alive
+                      Professional and Reliable{' '}
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
+                      A fantastic team that really understands the client’s
+                      vision. Highly recommend!
                     </p>
                   </div>
                 </div>

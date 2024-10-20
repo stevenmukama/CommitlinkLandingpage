@@ -18,8 +18,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Web development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: 'Web Development',
+      desc: 'Building responsive, high-performance websites tailored to your business needs, ensuring optimal user experience and scalability.',
     },
     {
       icon: (
@@ -37,8 +37,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'App development',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: 'App Development',
+      desc: "Creating intuitive and scalable mobile applications that enhance your business's reach and provide value to your customers.",
     },
     {
       icon: (
@@ -56,8 +56,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Seo optimization',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: 'SEO Optimization',
+      desc: 'Improving your search engine rankings with tailored SEO strategies that increase organic traffic and brand visibility.',
     },
     {
       icon: (
@@ -75,8 +75,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Build on your terms',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: 'Integration with Make.com',
+      desc: 'Streamline your workflows with seamless integration into Make.com, connecting your tools for efficient automation.',
     },
     {
       icon: (
@@ -94,8 +94,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Deliver fast',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: 'Fast Delivery',
+      desc: 'Delivering projects on time with a focus on quality, ensuring your business meets its goals without delays.',
     },
     {
       icon: (
@@ -113,8 +113,8 @@ function Benefits() {
           />
         </svg>
       ),
-      title: 'Flexible',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.',
+      title: 'Flexibility',
+      desc: 'Adapting to your project needs with scalable solutions, ensuring growth and flexibility in the fast-changing digital landscape.',
     },
   ];
 
@@ -124,11 +124,12 @@ function Benefits() {
         <div className="relative max-w-2xl mx-auto sm:text-center">
           <div className="relative z-10">
             <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Let’s help power your SaaS
+              Let’s help power your Business
             </h3>
             <p className="mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              congue, nisl eget molestie varius, enim ex faucibus purus.
+              Elevate your business with tailored solutions designed to enhance
+              performance and drive growth. Let us help you achieve success in
+              today’s competitive landscape.
             </p>
           </div>
           <div
@@ -153,27 +154,12 @@ function Benefits() {
             ))}
           </ul>
         </div>
-        <div className="justify-center mt-12 items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-          <a
-            href="#"
-            className="block py-2 px-4 text-center text-white font-medium bg-[#daa51b] duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
-            Let's get started
+        <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
+          <a className="px-10 py-3.5 w-full cursor-pointer hover:bg-[#24330c] bg-[#daa51b] text-white text-center rounded-md shadow-md block sm:w-auto">
+            Book a call now{' '}
           </a>
-          <a
-            href="#"
-            className="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex">
-            Get access
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5">
-              <path
-                fillRule="evenodd"
-                d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z"
-                clipRule="evenodd"
-              />
-            </svg>
+          <a className="px-10 py-3.5 w-full cursor-pointer hover:border-[#24330c] text-gray-500 text-center border rounded-md duration-300 hover:text-[#daa51b] hover:shadow block sm:w-auto">
+            Contact us{' '}
           </a>
         </div>
       </div>

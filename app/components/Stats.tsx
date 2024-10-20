@@ -23,11 +23,11 @@ export default () => {
       <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
         <div className="max-w-2xl">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            We do our best to make customers always happy
+            Dedicated to Customer Satisfaction
           </h3>
           <p className="mt-3 max-w-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-            venenatis sollicitudin quam ut tincidunt.
+            We strive to exceed expectations, ensuring every client experiences
+            personalized service and unparalleled support.
           </p>
         </div>
         <div className="flex-none mt-6 md:mt-0 lg:mt-6">
