@@ -21,14 +21,17 @@
 
 //   export default ButtonLink;
 
-export interface ButtonLinkProps {
+function ButtonLink({
+  href,
+  children,
+  className,
+  target,
+}: {
   href: string;
-  children?: React.ReactNode;
   className?: string;
+  children?: React.ReactNode;
   target?: string;
-}
-
-function ButtonLink({ href, children, className, target }: ButtonLinkProps) {
+}) {
   return (
     <a href={href} className={className} target={target}>
       {children}
