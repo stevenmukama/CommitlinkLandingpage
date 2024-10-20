@@ -180,39 +180,12 @@ const Testimonials = () => {
                     <StarIcon />
                   </div>
                   <div className="mt-4">
-                    <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
+                    <p className="text-2xl font-bold text-[#daa51b] sm:text-3xl">
                       Professional and Reliable{' '}
                     </p>
                     <p className="mt-4 leading-relaxed text-gray-700">
                       A fantastic team that really understands the client’s
                       vision. Highly recommend!
-                    </p>
-                  </div>
-                </div>
-                <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                  &mdash; Michael Scott
-                </footer>
-              </blockquote>
-            </div>
-            <div className="keen-slider__slide">
-              <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
-                <div>
-                  <div className="flex gap-0.5 text-green-500">
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                    <StarIcon />
-                  </div>
-                  <div className="mt-4">
-                    <p className="text-2xl font-bold text-[#daa51b] -600 sm:text-3xl">
-                      Stayin' Alive
-                    </p>
-                    <p className="mt-4 leading-relaxed text-gray-700">
-                      No, Rose, they are not breathing. And they have no arms or
-                      legs … Where are they? You know what? If we come across
-                      somebody with no arms or legs, do we bother resuscitating
-                      them? I mean, what quality of life do we have there?
                     </p>
                   </div>
                 </div>
