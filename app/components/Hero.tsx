@@ -3,7 +3,7 @@ function Hero() {
     <>
       <section
         id="about"
-        className="mt-24 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
+        className="mt-10 mx-auto max-w-screen-xl pb-4 px-4 sm:px-8">
         <div className="text-center space-y-4">
           <h1 className="text-4xl text-gray-800 font-extrabold mx-auto md:text-5xl">
             Bring Your Ideas to Life{' '}

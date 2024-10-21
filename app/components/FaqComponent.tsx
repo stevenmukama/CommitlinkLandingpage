@@ -57,7 +57,7 @@ const FaqComponent = () => {
           contact us.
         </p>
       </div>
-      <div className="space-y-4  w-1/2  block mx-auto mt-12">
+      <div className="space-y-4  w-4/5 sm:w-[70%] block mx-auto mt-12">
         {faqs.map((faq, index) => (
           <details
             key={index}
