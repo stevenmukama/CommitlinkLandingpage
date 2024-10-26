@@ -3,12 +3,19 @@ import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid';
 import logo from '../assets/LogoImg.png';
 import ButtonLink from '../common/ButtonLink';
+import { PopupButton } from 'react-calendly';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 function Nav() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   const textLinkClasses =
     'text-gray-500 hover:text-gray-900 active:text-gray-400';
-
   const textLinkClassesMob = 'block hover:text-white hover:bg-[#24330c] my-8 ';
   const navLinks = [
     { href: '#about', label: 'About Us' },
@@ -44,11 +51,16 @@ function Nav() {
                 ))}
               </div>
             </div>
-            <ButtonLink
-              href="#contactus"
-              className="active:bg max-sm:hidden rounded-xl px-5 py-3 text-white bg-[#daa51b] hover:bg-[#24330c]">
-              Book a call now
-            </ButtonLink>
+
+            <div className="active:bg max-sm:hidden rounded-xl px-5 py-3 text-white bg-[#daa51b] hover:bg-[#24330c]">
+              {isClient && (
+                <PopupButton
+                  url="https://calendly.com/stevenmukama1"
+                  rootElement={document.getElementById('root') || document.body}
+                  text="Book a call now"
+                />
+              )}
+            </div>
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-[#24330c] hover:text-white sm:hidden">
               {open ? (
                 <XMarkIcon className="block h-6 w-6" />
@@ -67,11 +79,15 @@ function Nav() {
                 {link.label}
               </Disclosure.Button>
             ))}
-            <ButtonLink
-              href="#contactus"
-              className="active:bg block rounded-xl px-5 py-3 text-white bg-[#daa51b] hover:bg-[#24330c]">
-              Book a call now
-            </ButtonLink>
+            <div className="active:bg max-sm:hidden rounded-xl px-5 py-3 text-white bg-[#daa51b] hover:bg-[#24330c]">
+              {isClient && (
+                <PopupButton
+                  url="https://calendly.com/stevenmukama1"
+                  rootElement={document.getElementById('root') || document.body}
+                  text="Book a call now"
+                />
+              )}
+            </div>
           </Disclosure.Panel>
         </>
       )}
