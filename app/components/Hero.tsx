@@ -1,3 +1,5 @@
+import BookBtn from '../common/BookBtn';
+
 function Hero() {
   return (
     <>
@@ -17,9 +19,7 @@ function Hero() {
           </p>
         </div>
         <div className="mt-12 justify-center items-center space-y-3 sm:space-x-6 sm:space-y-0 sm:flex">
-          <a className="px-10 py-3.5 w-full cursor-pointer hover:bg-[#24330c] bg-[#daa51b] text-white text-center rounded-md shadow-md block sm:w-auto">
-            Book a call now{' '}
-          </a>
+          <BookBtn />
           <a className="px-10 py-3.5 w-full cursor-pointer hover:border-[#24330c] text-gray-500 text-center border rounded-md duration-300 hover:bg-[#24330c] hover:text-white hover:shadow block sm:w-auto">
             Contact us{' '}
           </a>

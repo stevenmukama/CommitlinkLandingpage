@@ -3,9 +3,9 @@ import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid';
 import logo from '../assets/LogoImg.png';
 import ButtonLink from '../common/ButtonLink';
-import { PopupButton } from 'react-calendly';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import BookBtn from '../common/BookBtn';
 
 function Nav() {
   const [isClient, setIsClient] = useState(false);
@@ -52,15 +52,7 @@ function Nav() {
               </div>
             </div>
 
-            <div className="active:bg max-sm:hidden rounded-xl px-5 py-3 text-white bg-[#daa51b] hover:bg-[#24330c]">
-              {isClient && (
-                <PopupButton
-                  url="https://calendly.com/stevenmukama1"
-                  rootElement={document.getElementById('root') || document.body}
-                  text="Book a call now"
-                />
-              )}
-            </div>
+            <BookBtn />
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-[#24330c] hover:text-white sm:hidden">
               {open ? (
                 <XMarkIcon className="block h-6 w-6" />
@@ -79,15 +71,7 @@ function Nav() {
                 {link.label}
               </Disclosure.Button>
             ))}
-            <div className="active:bg max-sm:hidden rounded-xl px-5 py-3 text-white bg-[#daa51b] hover:bg-[#24330c]">
-              {isClient && (
-                <PopupButton
-                  url="https://calendly.com/stevenmukama1"
-                  rootElement={document.getElementById('root') || document.body}
-                  text="Book a call now"
-                />
-              )}
-            </div>
+            <BookBtn />
           </Disclosure.Panel>
         </>
       )}
