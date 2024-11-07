@@ -10,7 +10,7 @@ function BookBtn() {
   }, []);
 
   return (
-    <div className="px-10 py-3.5 w-full cursor-pointer hover:bg-[#24330c] bg-[#daa51b] text-white text-center rounded-md shadow-md block sm:w-auto">
+    <div className="px-10 py-3.5 w-full max-sm:w-2/3 max-sm:px-4 cursor-pointer hover:bg-[#24330c] bg-[#daa51b] text-white text-center rounded-md shadow-md block ">
       {isClient && (
         <PopupButton
           url="https://calendly.com/pacifiquetwagirayesu"
