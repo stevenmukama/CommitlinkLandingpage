@@ -13,7 +13,7 @@ function BookNowBtn() {
     <div className="active:bg max-sm:hidden rounded-xl px-5 py-3 text-black bg-[#ffff] hover:text-white hover:bg-[#24330c]">
       {isClient && (
         <PopupButton
-          url="https://calendly.com/stevenmukama1"
+          url="https://calendly.com/pacifiquetwagirayesu"
           rootElement={document.getElementById('root') || document.body}
           text="Book a call now"
         />

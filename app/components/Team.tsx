@@ -4,6 +4,8 @@ import worker2 from '../assets/image2.jpg';
 import worker3 from '../assets/image3.jpg';
 import worker4 from '../assets/image4.jpg';
 import worker5 from '../assets/image5.png';
+import worker6 from '../assets/financeManager.png';
+import worker7 from '../assets/NetworkEngineer.png';
 
 function Team() {
   const team = [
@@ -31,6 +33,16 @@ function Team() {
       avatar: worker5,
       name: 'Mukama Steven',
       title: 'Full Stack Engineer',
+    },
+    {
+      avatar: worker6,
+      name: 'Brian Clark ',
+      title: 'Network Engineer',
+    },
+    {
+      avatar: worker7,
+      name: ' Twagirayesu Daniel',
+      title: 'Finance Manager',
     },
   ];
 

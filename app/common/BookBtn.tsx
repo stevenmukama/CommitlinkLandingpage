@@ -13,7 +13,7 @@ function BookBtn() {
     <div className="px-10 py-3.5 w-full cursor-pointer hover:bg-[#24330c] bg-[#daa51b] text-white text-center rounded-md shadow-md block sm:w-auto">
       {isClient && (
         <PopupButton
-          url="https://calendly.com/stevenmukama1"
+          url="https://calendly.com/pacifiquetwagirayesu"
           rootElement={document.getElementById('root') || document.body}
           text="Book a call now"
         />
