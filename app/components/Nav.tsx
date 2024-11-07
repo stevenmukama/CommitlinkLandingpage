@@ -52,7 +52,7 @@ function Nav() {
               </div>
             </div>
 
-            <BookBtn />
+            <BookBtn className="px-10 py-3.5 w-auto max-sm:w-1/3 max-sm:text-xs max-sm:px-4" />
             <Disclosure.Button className="rounded-md p-2 text-gray-500 hover:bg-[#24330c] hover:text-white sm:hidden">
               {open ? (
                 <XMarkIcon className="block h-6 w-6" />
